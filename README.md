@@ -6,11 +6,12 @@ Walk the forest road to Blackwater Parish, row the drowned lake, light the lante
 through the city, wake the Pale Bell — then take the five journeys beyond: the dive down the pistol's muzzle, the
 climb, the night drive over the pass, the dragon's dream, and the Underparish.
 
-> **This is a test build. It has never run on a real PS Vita yet** — only in the Vita3K emulator, where every area and
+> **This is a test build.** Test build 1 showed a blue, glitchy picture on real Vitas; **test build 2 fixes that** (thanks to
+> the testers' logs) but is not confirmed on hardware yet — only in the Vita3K emulator, where every area and
 > journey runs (and 118 scripted tests pass through them). If you have a Vita with HENkaku, please try it and tell me how it runs:
 > [open a hardware report](../../issues/new?template=hardware-report.md). Thank you!
 
-### ⬇️ [Download the test build](../../releases)
+### ⬇️ [Download test build 2](../../releases/tag/v0.12-test2)
 
 Looking for the PSP version? → [A Place Beyond — PSP edition](https://github.com/bcaa777/a-place-beyond-psp)
 
@@ -51,7 +52,7 @@ Underparish, the bosses and their intros, letters, the journal, the map, the upg
 
 ## Install
 
-1. Download `A-Place-Beyond-Vita-v0.12-test1.zip` from [Releases](../../releases) and unzip it on your computer.
+1. Download the newest test build zip (`A-Place-Beyond-Vita-v0.12-test2.zip`) from [Releases](../../releases) and unzip it on your computer.
 2. Copy `APlaceBeyond.vpk` to the Vita (e.g. `ux0:data/`, over USB or FTP in VitaShell).
 3. In VitaShell, open the VPK and choose **Install**. The bubble *A Place Beyond* appears on the LiveArea.
 4. Delete the VPK afterwards to free the space.
