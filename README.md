@@ -7,11 +7,12 @@ through the city, wake the Pale Bell — then take the five journeys beyond: the
 climb, the night drive over the pass, the dragon's dream, and the Underparish.
 
 > **This is a test build.** Thanks to the testers' logs, test builds 2 and 3 fixed the colours and the fog on real Vitas, test build 4 the
-> geometry, menus, HUD and sprites, and **test build 5 should clear the last artifacts on the lake**; it is not fully confirmed on hardware yet — only in the Vita3K emulator, where every area and
+> geometry, menus, HUD and sprites, test build 5 the
+> lake, and **test build 6 should make the sprites solid again**; it is not fully confirmed on hardware yet — only in the Vita3K emulator, where every area and
 > journey runs (and 118 scripted tests pass through them). If you have a Vita with HENkaku, please try it and tell me how it runs:
 > [open a hardware report](../../issues/new?template=hardware-report.md). Thank you!
 
-### ⬇️ [Download test build 5](../../releases/tag/v0.12-test5)
+### ⬇️ [Download test build 6](../../releases/tag/v0.12-test6)
 
 Looking for the PSP version? → [A Place Beyond — PSP edition](https://github.com/bcaa777/a-place-beyond-psp)
 
@@ -52,7 +53,7 @@ Underparish, the bosses and their intros, letters, the journal, the map, the upg
 
 ## Install
 
-1. Download the newest test build zip (`A-Place-Beyond-Vita-v0.12-test5.zip`) from [Releases](../../releases) and unzip it on your computer.
+1. Download the newest test build zip (`A-Place-Beyond-Vita-v0.12-test6.zip`) from [Releases](../../releases) and unzip it on your computer.
 2. Copy `APlaceBeyond.vpk` to the Vita (e.g. `ux0:data/`, over USB or FTP in VitaShell).
 3. In VitaShell, open the VPK and choose **Install**. The bubble *A Place Beyond* appears on the LiveArea.
 4. Delete the VPK afterwards to free the space.
