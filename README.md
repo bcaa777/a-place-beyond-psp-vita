@@ -8,11 +8,12 @@ climb, the night drive over the pass, the dragon's dream, and the Underparish.
 
 > **This is a test build.** Thanks to the testers' logs, test builds 2 to 6 fixed the colours, the fog, the geometry,
 > the menus, the HUD, the sprites and the lake. Test builds 7 and 8 brought it to 30 fps on real Vitas and added
-> aiming with two sticks; **test build 9** should remove the flickering boxes around trees, monsters and in the lake.
+> aiming with two sticks; test build 9 removed the boxes around the characters, and **test build 10** goes after the
+> remaining flicker in the scenery and the title's signposts.
 > If you have a Vita with HENkaku, please try it and tell me how it runs:
 > [open a hardware report](../../issues/new?template=hardware-report.md). Thank you!
 
-### ⬇️ [Download test build 9](../../releases/tag/v0.12-test9)
+### ⬇️ [Download test build 10](../../releases/tag/v0.12-test10)
 
 Looking for the PSP version? → [A Place Beyond — PSP edition](https://github.com/bcaa777/a-place-beyond-psp)
 
@@ -53,7 +54,7 @@ Underparish, the bosses and their intros, letters, the journal, the map, the upg
 
 ## Install
 
-1. Download the newest test build zip (`A-Place-Beyond-Vita-v0.12-test9.zip`) from [Releases](../../releases) and unzip it on your computer.
+1. Download the newest test build zip (`A-Place-Beyond-Vita-v0.12-test10.zip`) from [Releases](../../releases) and unzip it on your computer.
 2. Copy `APlaceBeyond.vpk` to the Vita (e.g. `ux0:data/`, over USB or FTP in VitaShell).
 3. In VitaShell, open the VPK and choose **Install**. The bubble *A Place Beyond* appears on the LiveArea.
 4. Delete the VPK afterwards to free the space.
@@ -89,7 +90,7 @@ The zip includes a cheat menu (`CHEATS.txt`) for anyone who just wants to look a
 ## Known issues (test build)
 
 - **Speed on real hardware**: the title screen, the parish and the lake run at 15-20 fps; the forest and the frost at
-  30 in test build 6; test builds 7 to 9 are the speed fixes. Entering a new area may stutter for a moment the first
+  30 in test build 6; test builds 7 to 10 are the speed fixes. Entering a new area may stutter for a moment the first
   time. Reports very welcome.
 - 30 fps, as on the PSP (some journeys step their simulation once per frame).
 - The companions and their boats don't show in the lake's reflection.
