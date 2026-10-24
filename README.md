@@ -8,12 +8,12 @@ climb, the night drive over the pass, the dragon's dream, and the Underparish.
 
 > **This is a test build.** Thanks to the testers' logs, test builds 2 to 6 fixed the colours, the fog, the geometry,
 > the menus, the HUD, the sprites and the lake: since test build 6 the game draws right on real Vitas. What is left is
-> speed: the title screen, the parish and the lake run at 15-20 fps (the forest and the frost at 30).
-> **Test build 7 is the first speed fix**, and its boot-log build measures the speed on your Vita. If you have a Vita
-> with HENkaku, please try it and tell me how it runs:
+> speed. Test build 7 halved the graphics chip's time (the title went from 15 to about 25 fps); **test build 8** lets
+> the processor and the graphics chip work at the same time, fixes the lake's flickering and aims with two sticks.
+> If you have a Vita with HENkaku, please try it and tell me how it runs:
 > [open a hardware report](../../issues/new?template=hardware-report.md). Thank you!
 
-### ⬇️ [Download test build 7](../../releases/tag/v0.12-test7)
+### ⬇️ [Download test build 8](../../releases/tag/v0.12-test8)
 
 Looking for the PSP version? → [A Place Beyond — PSP edition](https://github.com/bcaa777/a-place-beyond-psp)
 
@@ -54,7 +54,7 @@ Underparish, the bosses and their intros, letters, the journal, the map, the upg
 
 ## Install
 
-1. Download the newest test build zip (`A-Place-Beyond-Vita-v0.12-test7.zip`) from [Releases](../../releases) and unzip it on your computer.
+1. Download the newest test build zip (`A-Place-Beyond-Vita-v0.12-test8.zip`) from [Releases](../../releases) and unzip it on your computer.
 2. Copy `APlaceBeyond.vpk` to the Vita (e.g. `ux0:data/`, over USB or FTP in VitaShell).
 3. In VitaShell, open the VPK and choose **Install**. The bubble *A Place Beyond* appears on the LiveArea.
 4. Delete the VPK afterwards to free the space.
@@ -76,7 +76,7 @@ It also records the frame times, which is exactly what I can't measure without a
 |---|---|
 | Left stick | Move (push fully to run) |
 | Right stick / D-pad | Turn and tilt the camera |
-| R / hold L | Fire the pistol / aim over the shoulder (tap L recentres the camera) |
+| R / hold L | Fire the pistol / aim over the shoulder: the right stick aims, the left stick walks (tap L recentres the camera) |
 | ✕ | Jump, double jump; hold in the air to glide (once you have the wings) |
 | ○ | Dash |
 | □ | Light cut; hold for the heavy cut · L + □: eye burst · in the air after a double jump: ground slam |
@@ -90,7 +90,8 @@ The zip includes a cheat menu (`CHEATS.txt`) for anyone who just wants to look a
 ## Known issues (test build)
 
 - **Speed on real hardware**: the title screen, the parish and the lake run at 15-20 fps; the forest and the frost at
-  30. Test build 7 is the first fix; entering a new area may stutter for a moment the first time. Reports very welcome.
+  30 in test build 6; test builds 7 and 8 are the speed fixes. Entering a new area may stutter for a moment the first
+  time. Reports very welcome.
 - 30 fps, as on the PSP (some journeys step their simulation once per frame).
 - The companions and their boats don't show in the lake's reflection.
 - The first trip into the Underparish shows a short black screen while it is built.
