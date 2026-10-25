@@ -8,12 +8,12 @@ climb, the night drive over the pass, the dragon's dream, and the Underparish.
 
 > **This is a test build.** Thanks to the testers' logs, test builds 2 to 6 fixed the colours, the fog, the geometry,
 > the menus, the HUD, the sprites and the lake. Test builds 7 and 8 brought it to 30 fps on real Vitas and added
-> aiming with two sticks; test build 9 removed the boxes around the characters, and **test build 10** goes after the
-> remaining flicker in the scenery and the title's signposts.
+> aiming with two sticks; test builds 9 and 10 went after the boxes around the characters and the flicker, and
+> **test build 11** removes the boxes around you and the dog that came back on some Vitas.
 > If you have a Vita with HENkaku, please try it and tell me how it runs:
 > [open a hardware report](../../issues/new?template=hardware-report.md). Thank you!
 
-### ⬇️ [Download test build 10](../../releases/tag/v0.12-test10)
+### ⬇️ [Download test build 11](../../releases/tag/v0.12-test11)
 
 Looking for the PSP version? → [A Place Beyond — PSP edition](https://github.com/bcaa777/a-place-beyond-psp)
 
@@ -54,7 +54,7 @@ Underparish, the bosses and their intros, letters, the journal, the map, the upg
 
 ## Install
 
-1. Download the newest test build zip (`A-Place-Beyond-Vita-v0.12-test10.zip`) from [Releases](../../releases) and unzip it on your computer.
+1. Download the newest test build zip (`A-Place-Beyond-Vita-v0.12-test11.zip`) from [Releases](../../releases) and unzip it on your computer.
 2. Copy `APlaceBeyond.vpk` to the Vita (e.g. `ux0:data/`, over USB or FTP in VitaShell).
 3. In VitaShell, open the VPK and choose **Install**. The bubble *A Place Beyond* appears on the LiveArea.
 4. Delete the VPK afterwards to free the space.
