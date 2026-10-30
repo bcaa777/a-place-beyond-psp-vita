@@ -100,6 +100,8 @@ The zip includes a cheat menu (`CHEATS.txt`) for anyone who just wants to look a
 ## Credits & license
 
 *A Place Beyond* — game, art and design: **bcaa777**.
+Hardware testing of the PS Vita edition: **Thub10**, who ran twenty test builds on a real Vita and sent the logs and
+captures that fixed the colours, the geometry, the sprites, the freeze and the blinking. Thank you!
 The PS Vita edition is built with the open [VitaSDK](https://vitasdk.org) toolchain; its GPU shaders were compiled
 with [open-shacccg](https://github.com/frangarcj/open-shacccg). Third-party notices are in the release zip
 (`THIRD_PARTY_NOTICES.txt` and `licenses/`). No GPL/LGPL code is in the game.
